@@ -1,4 +1,4 @@
-# 🔮 AI Oracle: Predictive Dice Destiny
+# 🔮 AI Oracle: Predictive Dice Destiny 
 **An End-to-End Machine Learning Web Application**
 
 ## 🚀 Live Demo
