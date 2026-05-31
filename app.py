@@ -9,7 +9,7 @@ from streamlit_lottie import st_lottie
 import warnings
 import os
 
-# --- 1. SETTINGS & WARNINGS ---
+
 warnings.filterwarnings("ignore", category=UserWarning)
 st.set_page_config(page_title="AI Dice Oracle", page_icon="🔮", layout="wide")
 
