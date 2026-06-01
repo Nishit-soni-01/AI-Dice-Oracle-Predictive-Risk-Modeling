@@ -13,7 +13,7 @@ import os
 warnings.filterwarnings("ignore", category=UserWarning)
 st.set_page_config(page_title="AI Dice Oracle", page_icon="🔮", layout="wide")
 
-# --- 2. SESSION STATE (HISTORY) ---
+
 # This keeps track of your rolls even when the app reruns
 if 'roll_history' not in st.session_state:
     st.session_state.roll_history = []
