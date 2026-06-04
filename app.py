@@ -18,7 +18,7 @@ st.set_page_config(page_title="AI Dice Oracle", page_icon="🔮", layout="wide")
 if 'roll_history' not in st.session_state:
     st.session_state.roll_history = []
 
-# --- 3. CUSTOM GLASSMORPHISM CSS ---
+
 st.markdown("""
     <style>
     .main { background: #0F172A; color: #F8FAFC; }
