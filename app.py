@@ -33,7 +33,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 4. ASSET LOADERS ---
+
 def load_lottie(url):
     try:
         r = requests.get(url, timeout=5)
