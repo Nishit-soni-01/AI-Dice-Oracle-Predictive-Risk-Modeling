@@ -43,7 +43,7 @@ def load_lottie(url):
 
 @st.cache_resource
 def load_model():
-    # Model trained using GaussianNB logic
+   
     return pickle.load(open('dice_model.pkl', 'rb'))
 
 lottie_url = "https://lottie.host/86644f8d-676b-4395-9788-f542a2012a6d/YI6YI6p5X0.json"
