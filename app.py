@@ -68,7 +68,7 @@ with st.sidebar:
     else:
         st.caption("No rolls yet. Start your destiny!")
 
-# --- 6. APP LOGIC ---
+
 try:
     model = load_model()
 except FileNotFoundError:
