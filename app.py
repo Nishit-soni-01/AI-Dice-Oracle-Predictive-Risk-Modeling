@@ -49,7 +49,7 @@ def load_model():
 lottie_url = "https://lottie.host/86644f8d-676b-4395-9788-f542a2012a6d/YI6YI6p5X0.json"
 lottie_magic = load_lottie(lottie_url)
 
-# --- 5. SIDEBAR (INSTRUCTIONS & HISTORY) ---
+
 with st.sidebar:
     st.header("🎮 Game Controls")
     with st.expander("📖 How to Play", expanded=True):
