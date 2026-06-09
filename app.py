@@ -133,5 +133,5 @@ with tab2:
     st.markdown("---")
     col_a, col_b, col_c = st.columns(3)
     col_a.metric("Algorithm", "GaussianNB")
-    col_b.metric("Accuracy", "0.9225") # Consistent with notebook implementation
+    col_b.metric("Accuracy", "0.9225")
     col_c.metric("F1-Score", "0.96 ")
